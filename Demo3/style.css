@@ -1,0 +1,232 @@
+#fancy
+{
+    color: red;
+    font-size: 40px;
+}
+#pokerSol {
+    position: relative;
+    background-color: #538a46;
+    width: 700px;
+    height: 560px;
+    padding: 0px 0px;
+}
+#pokerSol h1,
+#pokerSol h2,
+#pokerSol h3,
+#pokerSol h4,
+#pokerSol h5,
+#pokerSol h6   {
+    padding:0px;
+    margin:0px;
+}
+#playSpace div{
+    padding:0px;
+    margin:0px;
+}
+#playSpace {
+    position: absolute;
+    left: 350px;
+    top:0px;
+}
+
+#infoSpace {
+
+}
+
+#hpatts {
+
+}
+
+
+
+#mwin {
+    position: absolute;
+    border: #ededed 1px solid;
+    width: 230px;
+    height: 75px;
+    top: 450px;
+    left: 70px;
+
+}
+#cardstack {
+    position: absolute;
+    background-color: #ededed;
+    width: 50px;
+    height: 75px;
+    top:450px;
+    left: 10px;
+
+}
+#inplay {
+    position: absolute;
+    background-color: #ededed;
+    width: 50px;
+    height: 75px;
+    top:450px;
+    left: 70px;
+
+}
+#startreplay {
+    position: absolute;
+    width: 170px;
+    height: 75px;
+    top:450px;
+    left: 130px;
+    display:inline-block;
+    cursor:pointer;
+    color:#EEF3EC;
+    font-size:40px;
+    text-align: center;
+    line-height: 75px;
+
+
+    -moz-box-shadow:inset 0px 0px 15px 3px #3e7327;
+    -webkit-box-shadow:inset 0px 0px 15px 3px #3e7327;
+    box-shadow:inset 0px 0px 15px 3px #3e7327;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #315221));
+    background:-moz-linear-gradient(top, #77b55a 5%, #315221 100%);
+    background:-webkit-linear-gradient(top, #77b55a 5%, #315221 100%);
+    background:-o-linear-gradient(top, #77b55a 5%, #315221 100%);
+    background:-ms-linear-gradient(top, #77b55a 5%, #315221 100%);
+    background:linear-gradient(to bottom, #77b55a 5%, #315221 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77b55a', endColorstr='#315221',GradientType=0);
+    background-color:#77b55a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #172e0c;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #314d1e;
+}
+
+#startreplay:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #315221), color-stop(1, #77b55a));
+    background:-moz-linear-gradient(top, #315221 5%, #77b55a 100%);
+    background:-webkit-linear-gradient(top, #315221 5%, #77b55a 100%);
+    background:-o-linear-gradient(top, #315221 5%, #77b55a 100%);
+    background:-ms-linear-gradient(top, #315221 5%, #77b55a 100%);
+    background:linear-gradient(to bottom, #315221 5%, #77b55a 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#315221', endColorstr='#77b55a',GradientType=0);
+    background-color:#315221;
+}
+
+.gloss{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 75px;
+    /** gradient info from
+        Ultimate CSS Gradient Generator
+        http://www.colorzilla.com/gradient-editor
+    **/
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0.1) 0%, rgba(41,137,216,0.1) 35%, rgba(215,236,247,0.1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,0.1)), color-stop(35%,rgba(41,137,216,0.1)), color-stop(100%,rgba(215,236,247,0.1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0.1) 0%,rgba(41,137,216,0.1) 35%,rgba(215,236,247,0.1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(30,87,153,0.1) 0%,rgba(41,137,216,0.1) 35%,rgba(215,236,247,0.1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(30,87,153,0.1) 0%,rgba(41,137,216,0.1) 35%,rgba(215,236,247,0.1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0.1) 0%,rgba(41,137,216,0.1) 35%,rgba(215,236,247,0.1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1e5799', endColorstr='#1ad7ecf7',GradientType=0 ); /* IE6-9 */
+}
+.cbpatt{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 75px;
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAK0lEQVQIW2NkYGAwBuKzQAwCYDYjMgcqyAAThKsCMUCCIC0gADICq3awDgB/0gdsF5dO8wAAAABJRU5ErkJggg==) repeat;
+}
+.innercard{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 75px;
+}
+.cardspot {
+    position:absolute;
+    background-color: #ededed;
+    width: 50px;
+    height: 75px;
+}
+.playingCard {
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    width: 50px;
+    height: 75px;
+    border: solid 1px;
+    font-family: 'Berkshire Swash', cursive;
+    text-align: center;
+    background: white;
+
+}
+.playingCard[data-fh='001'] {
+    color: #ff0000;
+}
+.playingCard[data-fh='010'] {
+    color: #000000;
+}
+.playingCard[data-fh='100'] {
+    color: #C71585;
+}
+.playingCard[data-facing='false'] {
+    color: #C71585 !important;
+    background-color: #C71585;
+}
+
+.playingCard>.value, .playingCard>.suit {
+    font-size: 30px;
+
+}
+
+
+.playingCard[data-facing='false']>.value, .playingCard[data-facing='false']>.suit {
+    display: none;
+}
+
+.handmade{
+    position: absolute;
+    visibility: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 48px;
+    width: 48px;
+    color: #000000;
+    border: 1px solid #C71585;
+    font-size: 12px;
+    text-align: center;
+    background:rgb(255,255,255);
+    background: transparent\9;
+    background:rgba(255,255,255,0.9);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#e5ffffff,endColorstr=#e5ffffff);
+    zoom: 1;
+}
+
+.handmade:nth-child(n) {
+    filter: none;
+}
+.handmade>.htext {
+    font-weight:700;
+}
+.handmade>.score {
+    position: absolute;
+    top:32px;
+    left:0px;
+    width: 48px;
+    height: 16px;
+    color: #C71585;
+    font-weight: 700;
+}
+.handmade>.gloss {
+    width: 48px;
+    height: 48px;
+    background: -moz-linear-gradient(top,  rgba(164,180,244,0.15) 0%, rgba(221,241,249,0.15) 45%, rgba(254,255,255,0.15) 99%, rgba(254,255,255,0.15) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(164,180,244,0.15)), color-stop(45%,rgba(221,241,249,0.15)), color-stop(99%,rgba(254,255,255,0.15)), color-stop(100%,rgba(254,255,255,0.15))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(164,180,244,0.15) 0%,rgba(221,241,249,0.15) 45%,rgba(254,255,255,0.15) 99%,rgba(254,255,255,0.15) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(164,180,244,0.15) 0%,rgba(221,241,249,0.15) 45%,rgba(254,255,255,0.15) 99%,rgba(254,255,255,0.15) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(164,180,244,0.15) 0%,rgba(221,241,249,0.15) 45%,rgba(254,255,255,0.15) 99%,rgba(254,255,255,0.15) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(164,180,244,0.15) 0%,rgba(221,241,249,0.15) 45%,rgba(254,255,255,0.15) 99%,rgba(254,255,255,0.15) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26a4b4f4', endColorstr='#26feffff',GradientType=0 ); /* IE6-9 */
+
+
+}
